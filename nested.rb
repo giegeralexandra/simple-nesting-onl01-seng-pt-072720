@@ -14,7 +14,14 @@ def hopper
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
 programmer_hash[:grace_hopper]
+=======
+programmer_hash[hopper] = [:grace_hopper]  
+alan_kay_is_known_for = programmer_hash[:alan_kay][:known_for]
+dennis_ritchies_language = [programmer_hash][:dennis_ritchie][:languages]
+
+>>>>>>> f1e6709d6c1df4e4478a51ec5b800410f0b629e3
 end
 
 def alan_kay_is_known_for
